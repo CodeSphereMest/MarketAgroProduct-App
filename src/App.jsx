@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Hero from './components/hero/hero';
+
+
+
 
 const App = () => {
   return (
-    <div>MARKET AGRO PRODUCT</div>
+    <div>
+      <Hero />
+    </div>
   )
 }
 
