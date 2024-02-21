@@ -1,9 +1,16 @@
-import React from 'react'
 
-const App = () => {
+import React from 'react';
+import ContactUs from './Pages/ContactUspage/ContactUS';
+
+
+
+function App() {
   return (
-    <div>MARKET AGRO PRODUCT</div>
-  )
+    <div>
+      <ContactUs />
+
+    </div>
+  );
 }
 
-export default App
+export default App;
