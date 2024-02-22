@@ -1,0 +1,16 @@
+.bImage {
+    background-image: url(../../assets/images/hero.jpg);
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 150px;
+    justify-content: center;
+}
