@@ -1,4 +1,5 @@
 import React from 'react';
+
 // import { soybean } from '../../assets/images';
 // import React, { useState } from 'react';
 
@@ -42,6 +43,7 @@ function ContactUs() {
   //   };
 
   return (
+  
     <div className="contact-us-container">
       <div className="background-image">
         <div className="contact-form-container">
@@ -58,6 +60,8 @@ function ContactUs() {
         </div>
       </div>
     </div>
+
+    
   );
 };
 
