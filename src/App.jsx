@@ -1,5 +1,5 @@
 import React from 'react';
-import Hero from './components/hero/hero';
+import LandingPage from './pages/landing';
 
 
 
@@ -7,7 +7,7 @@ import Hero from './components/hero/hero';
 const App = () => {
   return (
     <div>
-      <Hero />
+      <LandingPage />
     </div>
   )
 }
