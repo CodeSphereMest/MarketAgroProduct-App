@@ -4,8 +4,8 @@
     background-image: url(../../assets/images/hero.jpg);
     background-position: center;
     background-size: cover;
-
 }
+
 
 .content {
     display: flex;
@@ -29,6 +29,7 @@
     margin-bottom: 40px;
 }
 
+
 button {
     width: 130px;
     height: 10vh;
@@ -37,6 +38,7 @@ button {
     border-radius: 20px;
     background-color: rgb(182, 182, 32);
 }
+
 
 .feature {
     display: flex;

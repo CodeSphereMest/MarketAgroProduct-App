@@ -8,7 +8,7 @@ function Productprops(props) {
         <img src={props.image} alt="" className={styles.img} />
         <h2>{props.heading}</h2>
         <p>{props.paragraph}</p>
-        <button>Learn More</button>
+        {/* <button>Learn More</button> */}
 
     </div>
   )
