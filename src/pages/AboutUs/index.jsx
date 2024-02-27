@@ -1,4 +1,5 @@
 import React from "react"
+// import { Comfort-image.jpg, Ken-image.jpg} from "../../assets"
 
 // const TeamMemberCard = ({name, image, background, bio}) => (
 //     <div className="team-member-card">
@@ -14,7 +15,7 @@ const AboutUs = () => {
     const teamMembers = [
         {
             name: "Kenneth Boateng-Antwi",
-            image: "https://via.placeholder.com/150",
+            image: "../src/assets/Ken-image.jpg",
             background: "Founder & CEO",
             bio: "John is a passionate entrepreneur who has been in the food industry for over 20 years."
         },
@@ -32,7 +33,7 @@ const AboutUs = () => {
         },
         {
             name: "Comfort Arthur",
-            image: "https://via.placeholder.com/150",
+            image: "../src/assets/Comfort-image.jpg",
             background: "Head of Marketing",
             bio: "Jill is a marketing expert with a background in digital marketing and brand management."
         }
