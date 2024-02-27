@@ -1,15 +1,18 @@
+
 import React from 'react';
 import LandingPage from './pages/landing';
+import ContactUs from './Pages/ContactUspage/ContactUS';
 
 
 
-
-const App = () => {
+function App() {
   return (
     <div>
       <LandingPage />
+      <ContactUs />
     </div>
-  )
+  );
+
 }
 
-export default App
+export default App;
