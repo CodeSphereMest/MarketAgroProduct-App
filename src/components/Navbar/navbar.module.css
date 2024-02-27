@@ -1,7 +1,117 @@
+header {
+  background-color: rgb(111, 235, 138);
+  /* box-shadow: 0 0 5px black; */
+  padding: 5px;
+  position: sticky;
+  /* top: 0;
+  left: 0; */
 
+}
+.unordered{
+  list-style-type: none;
+}
 
 .navbar{
     display: flex;
-    gap: 10px;
+    gap: 150px;
     align-items: center;
+
   }
+
+  /* .navbar span{
+    display: flex;
+
+
+  } */
+
+  .navbarPosition{
+    display: inline;
+    margin-left: 5px;
+    margin-right:5px;
+    
+  }
+  .msc{
+    /* justify-content: left; */
+    font-weight: bold;
+    font-style: inherit;
+    /* font-size: larger; */
+  }
+  .button{
+    background-color: rgb(211, 240, 161);
+    border-radius: 5px;
+    margin: 15px;
+    padding: 5px;
+    
+  }
+   .searchbar{ 
+     padding: 10px; 
+     margin: 15px; 
+     border-radius: 5px; 
+     width: 300px; 
+    /* border-inline: none; */
+    /* outline-color: white; */
+   /* outline-offset: 1;  */
+   } 
+
+  .home{
+    margin: 15px;
+    font-weight: bold;
+    /* font-size: larger; */
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .aboutUs{
+    margin: 15px;
+
+    font-weight: bold;
+    /* font-size: larger; */
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .store{
+    font-weight: bold;
+    /* font-size: larger; */
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px;
+  }
+
+
+  /* .searchbar {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  /* form.example input[type=text] { */
+    /* padding: 10px; */
+    /* font-size: 17px; */
+    /* border: 1px solid grey; */
+    /* float: left; */
+    /* width: 80%; */
+    /* background: #f1f1f1; */
+  /* } */ 
+  
+  /* Style the submit button */
+  /* .submitbutton {
+
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey; 
+    border-left: none;  
+    cursor: pointer; 
+  }
+ 
+  
+  .submitbutton:hover {
+    background: #0b7dda;
+  } 
+
+   */
+  
+  /* /* Clear floats
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }  */

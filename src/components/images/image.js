@@ -1,5 +1,5 @@
-import googlelogo from './googlelogo.png'
+import agrologo from './agrologo.png'
 
 
 
-export  {googlelogo}
+export  {agrologo}
