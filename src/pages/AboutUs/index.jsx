@@ -1,6 +1,44 @@
+import React from "react"
+
+// const TeamMemberCard = ({name, image, background, bio}) => (
+//     <div className="team-member-card">
+//         <h3>{name}</h3>
+//         <img src={image} alt="" />
+//         <p>{background}</p>
+//         <p>{bio}</p>
+//     </div>
+// );
 
 
-export const AboutUs = () => (
+const AboutUs = () => {
+    const teamMembers = [
+        {
+            name: "Kenneth Boateng-Antwi",
+            image: "https://via.placeholder.com/150",
+            background: "Founder & CEO",
+            bio: "John is a passionate entrepreneur who has been in the food industry for over 20 years."
+        },
+        {
+            name: "Cilla Azil",
+            image: "https://via.placeholder.com/150",
+            background: "Co-Founder & CTO",
+            bio: "Jane is a tech-savvy professional with a background in computer science and engineering."
+        },
+        {
+            name: "Sandra Dakey",
+            image: "https://via.placeholder.com/150",
+            background: "Head of Operations",
+            bio: "James is a seasoned operations manager with a passion for sustainable practices."
+        },
+        {
+            name: "Comfort Arthur",
+            image: "https://via.placeholder.com/150",
+            background: "Head of Marketing",
+            bio: "Jill is a marketing expert with a background in digital marketing and brand management."
+        }
+    ]
+
+    return (
     <div className="about-us">
         <section className="hero-section">
             <h1>Empowering Healthy Lifestyles with Every Bite</h1>
@@ -47,3 +85,6 @@ export const AboutUs = () => (
         </section>
     </div>
   )
+}
+
+export default AboutUs;
