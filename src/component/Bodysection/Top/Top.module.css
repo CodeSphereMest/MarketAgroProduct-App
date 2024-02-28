@@ -1,0 +1,28 @@
+.cardsection {
+    margin-top: 3rem;
+    gap: 1rem;
+    height: 5vh;
+    display: flex;
+}
+
+
+.simage{
+    width: 500px;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* .rightcard{
+    position: relative;
+    flex-basis: 70%;
+    height: 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    overflow: hidden  ;
+} */
+

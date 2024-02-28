@@ -1,9 +1,16 @@
 import React from 'react'
+import Sellerpage from './pages/Sellerpage/Sellerpage';
+
+
 
 const App = () => {
   return (
-    <div>MARKET AGRO PRODUCT</div>
+
+    <React.Fragment>
+      <Sellerpage />
+
+    </React.Fragment>
   )
 }
 
-export default App
+export default App;
