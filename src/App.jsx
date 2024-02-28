@@ -1,15 +1,11 @@
 
 import React from 'react';
-import LandingPage from './pages/landing';
-import ContactUs from './Pages/ContactUspage/ContactUS';
-
-
+import LandingPage from './Pages/landing';
 
 function App() {
   return (
     <div>
       <LandingPage />
-      <ContactUs />
     </div>
   );
 

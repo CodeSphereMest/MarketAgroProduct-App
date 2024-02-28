@@ -1,13 +1,17 @@
-import Hero from "../../components/Hero";
+import Hero from "../../components/hero/Hero";
 import PropsContainer from "../../components/products/PropsContainer";
-import Navbar from "../../components/Navbar/Navbar"
+import Navbar from "../../components/navbar/Navbar"
+import ContactUs from "../../components/contact-us/ContactUs";
+
+
 
 const LandingPage = () => {
   return (
     <div>
-       <Navbar/>
+      <Navbar />
       <Hero />
       <PropsContainer />
+      <ContactUs />
     </div>
   );
 };
