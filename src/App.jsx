@@ -1,6 +1,8 @@
 import React from 'react';
 import AboutUs from './pages/AboutUs';
-// import Store from './pages/Store';
+import Footer from './components/footer';
+import Store from './pages/Store';
+import "bootstrap/dist/css/bootstrap.min.css"
 
 
 
@@ -8,7 +10,8 @@ const App = () => {
   return (
     <>
     <AboutUs />
-    {/* <Store /> */}
+    <Store />
+    <Footer />
     </>
   )
 }

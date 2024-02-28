@@ -26,16 +26,17 @@ const AboutUs = () => {
             bio: "Jane is a tech-savvy professional with a background in computer science and engineering."
         },
         {
-            name: "Sandra Dakey",
-            image: "https://via.placeholder.com/150",
-            background: "Head of Operations",
-            bio: "James is a seasoned operations manager with a passion for sustainable practices."
-        },
-        {
             name: "Comfort Arthur",
             image: "../src/assets/Comfort-image.jpg",
-            background: "Head of Marketing",
+            background: "Head of Operations",
             bio: "Jill is a marketing expert with a background in digital marketing and brand management."
+        }
+        ,
+        {
+            name: "Sandra Dakey",
+            image: "../src/assets/Sandra-image.jpg",
+            background: "Head of Marketing",
+            bio: "James is a seasoned operations manager with a passion for sustainable practices."
         }
     ]
 
