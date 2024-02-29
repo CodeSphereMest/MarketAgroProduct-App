@@ -58,14 +58,14 @@ const AboutUs = () => {
         <section className="vision-statement">
             <h2>Our Vision</h2>
             <p>To become a marketplace that connects conscientious consumers with local farmers, <br/>
-            transforming the way we think about food, from farm to fork virtually. We envision a world where <br/>
-            access to nutritious, responsibly-packaged food is a standard, not a luxury.</p>
+            transforming the way we think about food, from farm to fork, virtually. We envision a world where <br/>
+            access to nutritious, responsibly packaged food is a standard, not a luxury.</p>
         </section>
         <section className="values">
             <h2>Our Values</h2>
             <ul>
                 <li><strong>Sustainability</strong>: "We prioritize the planet in every decision, from packaging to partnerships."</li>
-                <li><strong>Quality</strong>: "Every product is hand-selceted for its freshness and nutritional value."</li>
+                <li><strong>Quality</strong>: "Every product is hand-selected for its freshness and nutritional value."</li>
                 <li><strong>Community</strong>: "Building strong, supportive relationships with both our farmers and customers."</li>
             </ul>
         </section>
