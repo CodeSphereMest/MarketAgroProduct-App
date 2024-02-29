@@ -1,10 +1,15 @@
+
 import React from 'react'
 import Sellerpage from './pages/Sellerpage/Sellerpage';
+import LandingPage from "./Pages/landing";
 
 
 
-const App = () => {
+
+
+function App() {
   return (
+
 
     <React.Fragment>
       <Sellerpage />
@@ -14,3 +19,5 @@ const App = () => {
 }
 
 export default App;
+
+
