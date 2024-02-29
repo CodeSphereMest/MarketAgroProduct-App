@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./navbar.module.css";
 import { agrologo } from "../images/image";
+import { Link } from "react-router-dom";
 // import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 const Navbar = () => {
@@ -19,9 +20,9 @@ const Navbar = () => {
         <div className={styles.navbarPosition}>
           
 
-          <span className={styles.home}>Home</span>
-          <span className={styles.aboutUs}>About Us</span>
-          <span className={styles.store}>Store</span>
+          <Link to={'/'} className={styles.home}>Home</Link>
+          <Link to={'/about-us'} className={styles.aboutUs}>About Us</Link>
+          <Link to={'/signup'} className={styles.store}>Store</Link>
           
           
 
@@ -51,7 +52,7 @@ const Navbar = () => {
           </button>
 
           <span> </span>
-          <button className={styles.button}>Sign Up</button>
+          <button className={styles.btn}>Sign Up</button>
         </div>
       </div>
     </header>

@@ -1,4 +1,5 @@
 import React from "react"
+import Navbar from "../../components/Navbar/Navbar";
 // import { Comfort-image.jpg, Ken-image.jpg} from "../../assets"
 
 // const TeamMemberCard = ({name, image, background, bio}) => (
@@ -40,7 +41,9 @@ const AboutUs = () => {
     ]
 
     return (
+       
     <div className="about-us">
+        <Navbar/>
         <section className="hero-section">
             <h1>Empowering Healthy Lifestyles with Every Bite</h1>
             <p>Discover farm-fresh produce delivered in eco-friendly packaging, <br/>
@@ -85,7 +88,10 @@ const AboutUs = () => {
             </div>
         </section>
     </div>
+    
   )
+
+
 }
 
 export default AboutUs;

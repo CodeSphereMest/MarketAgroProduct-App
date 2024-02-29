@@ -26,16 +26,16 @@
 }
 .content p {
     font-size: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 
 button {
-    width: 130px;
-    height: 10vh;
-    font-size: 20px;
+    width: 70px;
+    height: 5%;
+    font-size: 15px;
     font-weight: bolder;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: rgb(182, 182, 32);
 }
 

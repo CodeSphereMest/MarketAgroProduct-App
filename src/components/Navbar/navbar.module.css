@@ -28,6 +28,7 @@ header {
     display: inline;
     margin-left: 5px;
     margin-right:5px;
+    position: sticky;
     
   }
   .msc{
@@ -36,7 +37,7 @@ header {
     font-style: inherit;
     /* font-size: larger; */
   }
-  .button{
+  .btn{
     background-color: rgb(211, 240, 161);
     border-radius: 5px;
     margin: 15px;

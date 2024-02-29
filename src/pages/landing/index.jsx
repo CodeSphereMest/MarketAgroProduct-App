@@ -1,6 +1,6 @@
 import Hero from "../../components/hero/Hero";
 import PropsContainer from "../../components/products/PropsContainer";
-import Navbar from "../../components/navbar/Navbar"
+import Navbar from "../../components/Navbar/Navbar"
 import ContactUs from "../../components/contact-us/ContactUs";
 
 

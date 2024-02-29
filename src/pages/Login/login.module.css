@@ -1,0 +1,11 @@
+
+
+body {
+    background-image: url('../../assets/images/loginbg.avif');  opacity: 1; alt: "fruit";
+    
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    /* color: white; */
+   
+}
