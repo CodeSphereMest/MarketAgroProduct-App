@@ -11,7 +11,7 @@ import React from "react"
 // );
 
 
-const AboutUs = () => {
+const AboutUsPage = () => {
     const teamMembers = [
         {
             name: "Kenneth Boateng-Antwi",
@@ -88,4 +88,4 @@ const AboutUs = () => {
   )
 }
 
-export default AboutUs;
+export default AboutUsPage;
