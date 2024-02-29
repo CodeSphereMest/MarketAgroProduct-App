@@ -1,32 +1,54 @@
-import React from 'react'
-import styles from './Top.module.css'
-import sellerimage from '../../../assets/Images/sellerimage.jpg';
+import React, { useState } from "react";
+import styles from "./Top.module.css";
+import Activity from "../Activity/Activity";
 
-const Top = () => {
+const Top = (props) => {
+   
+    const [activityOpen, setActivityOpen] = useState(false)
+
+    
+    const columns = [
+      {Name: 'apple', Price:'20', Description:'This is nice'}
+    ]
+
+
+
   return (
+
     <div>
-        <div className={styles.topsection}>
-            <div className={styles.headersection}>
-                <div className={styles.title}>
-                    <h1>Welcome to MCS Agro Hub</h1>
-                    <p>Hello Seller, Welcome back!</p>
-                </div>
+      <div className={styles.topsection}>
+        <div className={styles.headersection}>
+          <div className={styles.title}>
+            <h1>Welcome to MCS Agro Hub</h1>
+            <p>Hello Seller, Welcome back!</p>
+          </div>
+          <div className={styles.sproduct}>
+            <h2>My Products</h2>
+            <button className={styles.upload} onClick={() => setActivityOpen(true)}>Upload a product</button>
+          </div>
 
+<div>
+  <table>
+  <tbody>
+    <tr>
+      <td>{props.name}</td>
+      <td>{props.price}</td>
+      <td>{props.description}</td>
+    </tr>
+  </tbody>
+  </table>
+</div>
 
-                <div className={styles.cardsection}>
-                    <div className={styles.rightcard}>
-                        <h1>Create and sell extraordinary products</h1>
-                        <p>The world's fast growing industry today are natural made products!</p>
-                    </div>
-                     <div className={styles.simage}>
-                        <img src={sellerimage} width='400px'
-                        height='100px'/>
-                     </div>
-                </div>
-            </div>
-        </div>
+<div>
+    {activityOpen && <Activity closeActivity={() => {
+        setActivityOpen(false);
+    }} columns={columns}/>}
     </div>
-  )
-}
+         
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default Top
+export default Top;

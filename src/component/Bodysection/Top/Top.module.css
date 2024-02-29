@@ -1,28 +1,28 @@
-.cardsection {
-    margin-top: 3rem;
-    gap: 1rem;
-    height: 5vh;
+.title {
+    background-color: rgba(144, 209, 45, 0.61);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 10px 10px;
+}
+
+
+.topsection {
+    height: 10vh;
+    padding: 10px;
+
+}
+
+.sproduct {
+    margin: 40px;
+    text-decoration: underline;
     display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    
 }
 
-
-.simage{
-    width: 500px;
-    height: 100%;
-    object-fit: cover;
+.upload {
+    margin: 40px;
+    padding: 20px;
+    border-radius: 10pc;
 }
-
-
-/* .rightcard{
-    position: relative;
-    flex-basis: 70%;
-    height: 50px;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    margin: auto;
-    padding: 2rem;
-    border-radius: 1rem;
-    overflow: hidden  ;
-} */
-

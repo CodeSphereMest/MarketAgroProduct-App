@@ -1,0 +1,13 @@
+.card {
+    border: solid;
+    border-radius: 30px;
+    width: 40%;
+}
+
+.table {
+    padding: 30px;
+}
+
+td {
+    padding: 15px;
+}
