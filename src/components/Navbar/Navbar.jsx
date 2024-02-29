@@ -1,6 +1,9 @@
 import React from "react";
 import styles from "./navbar.module.css";
 import { agrologo } from "../images/image";
+// import { Link } from "react-router-dom";
+// import LandingPage from "../../Pages/landing";
+// import Cart from "../cart/CartPage";
 // import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 const Navbar = () => {
