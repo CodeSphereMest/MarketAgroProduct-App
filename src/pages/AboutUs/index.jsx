@@ -17,25 +17,26 @@ const AboutUs = () => {
             name: "Kenneth Boateng-Antwi",
             image: "../src/assets/Ken-image.jpg",
             background: "Founder & CEO",
-            bio: "John is a passionate entrepreneur who has been in the food industry for over 20 years."
+            bio: "Ken is a passionate entrepreneur who has been in the food industry for over 20 years."
         },
         {
             name: "Cilla Azil",
-            image: "https://via.placeholder.com/150",
+            image: "../src/assets/Cilla.jpg",
             background: "Co-Founder & CTO",
-            bio: "Jane is a tech-savvy professional with a background in computer science and engineering."
-        },
-        {
-            name: "Sandra Dakey",
-            image: "https://via.placeholder.com/150",
-            background: "Head of Operations",
-            bio: "James is a seasoned operations manager with a passion for sustainable practices."
+            bio: "Cilla is a tech-savvy professional with a background in computer science and engineering."
         },
         {
             name: "Comfort Arthur",
             image: "../src/assets/Comfort-image.jpg",
+            background: "Head of Operations",
+            bio: "Comfort is a seasoned operations manager with a passion for sustainable practices."
+        }
+        ,
+        {
+            name: "Sandra Dakey",
+            image: "../src/assets/Sandra-image.jpg",
             background: "Head of Marketing",
-            bio: "Jill is a marketing expert with a background in digital marketing and brand management."
+            bio: "Sandra is a marketing expert with a background in digital marketing and brand management."
         }
     ]
 
@@ -73,7 +74,7 @@ const AboutUs = () => {
             <div className="team-members">
                 {teamMembers.map(member =>(
                     <div key={member.name} className="team-member-card">
-                        <img src={member.image} alt={member.name} className="team-member-image"/>
+                        <img src={member.image} alt={member.name} width="50%" className="team-member-image"/>
                         <div className="team-member-info">
                             <h3>{member.name}</h3>
                             <p>{member.background}</p>
