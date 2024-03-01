@@ -7,10 +7,10 @@ function Hero() {
         <section>
           <div className={styles.bImage}>
             <div className={styles.content}>
-              <h1>Welcome to Your Marketplace Name</h1>
+              <h1>Welcome Mest CodeSphere MArket Hub</h1>
               <h2>Connecting Farmers to Fresh, Sustainable Harvests</h2>
               <p>
-                Start Your Culinary Journey with Your Marketplace Name - Where
+                Start Your Culinary Journey with MCS - Where
                 Fresh Meets Fantastic!
               </p>
               <button>Order Now</button>

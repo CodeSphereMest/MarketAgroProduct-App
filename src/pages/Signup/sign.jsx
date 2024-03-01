@@ -1,9 +1,21 @@
 import React from "react";
 import styles from "./sign.module.css";
 import Navbar from "../../components/Navbar/Navbar";
+import { useNavigate } from "react-router-dom";
 
 
 const Sign = () => {
+  const navigate = useNavigate();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (validateForm()) {
+      console.log('Order details:', orderDetails);
+      // Process the checkout
+      alert('Signup successful');
+      navigate('/sellerspage')
+    }
+  }
   return (
 <>
 <Navbar/>
@@ -117,6 +129,7 @@ const Sign = () => {
             <b>Full Name:</b>{" "}
           </label>
           <input
+          onSubmit={handleSubmit}
             className={styles.fname}
             type="text"
             placeholder="Enter Full name"

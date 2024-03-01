@@ -63,3 +63,15 @@
   cursor: pointer;
 }
 
+.b-image {
+  background-image: url('../../assets/images/bgimage.avif');  opacity: 1;
+    
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  /* color: white; */;
+}
+
+footer {
+  background-color: burlywood;
+}

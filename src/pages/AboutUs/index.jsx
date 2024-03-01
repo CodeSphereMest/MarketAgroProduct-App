@@ -1,15 +1,6 @@
 import React from "react"
 import Navbar from "../../components/Navbar/Navbar";
-// import { Comfort-image.jpg, Ken-image.jpg} from "../../assets"
-
-// const TeamMemberCard = ({name, image, background, bio}) => (
-//     <div className="team-member-card">
-//         <h3>{name}</h3>
-//         <img src={image} alt="" />
-//         <p>{background}</p>
-//         <p>{bio}</p>
-//     </div>
-// );
+import Footer from "../../components/footer/Footer";
 
 
 const AboutUs = () => {
@@ -44,12 +35,13 @@ const AboutUs = () => {
        
     <div className="about-us">
         <Navbar/>
-        <section className="hero-section">
+        <section className="hero-section text-center">
+            <img src="https://images.pexels.com/photos/3962294/pexels-photo-3962294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
             <h1>Empowering Healthy Lifestyles with Every Bite</h1>
             <p>Discover farm-fresh produce delivered in eco-friendly packaging, <br/>
             directly to your doorstep</p>
         </section>
-        <section className="mission-statement">
+        <section className="mission-statement text-center">
             <h2>Our Mission</h2>
             <p>Our mission is to ensure that every piece of produce we deliver<br/>
              represents our commitment to freshness, hygiene, and environmental responsibility. <br/>
@@ -58,21 +50,21 @@ const AboutUs = () => {
              but also contribute to a healthier planet.</p>
         </section>
         <section className="vision-statement">
-            <h2>Our Vision</h2>
-            <p>To become a marketplace that connects conscientious consumers with local farmers, <br/>
+            <h2 className="text-center">Our Vision</h2>
+            <p className="text-center">To become a marketplace that connects conscientious consumers with local farmers, <br/>
             transforming the way we think about food, from farm to fork virtually. We envision a world where <br/>
             access to nutritious, responsibly-packaged food is a standard, not a luxury.</p>
         </section>
         <section className="values">
-            <h2>Our Values</h2>
+            <h2 className="text-center">Our Values</h2>
             <ul>
-                <li><strong>Sustainability</strong>: "We prioritize the planet in every decision, from packaging to partnerships."</li>
-                <li><strong>Quality</strong>: "Every product is hand-selceted for its freshness and nutritional value."</li>
-                <li><strong>Community</strong>: "Building strong, supportive relationships with both our farmers and customers."</li>
+                <li className="text-center"><strong>Sustainability</strong>: "We prioritize the planet in every decision, from packaging to partnerships."</li>
+                <li className="text-center"><strong>Quality</strong>: "Every product is hand-selceted for its freshness and nutritional value."</li>
+                <li className="text-center"><strong>Community</strong>: "Building strong, supportive relationships with both our farmers and customers."</li>
             </ul>
         </section>
         <section className="our-team">
-            <h2>Meet the Faces Behind Our Freshness</h2>
+            <h2 className="text-center">Meet the Faces Behind Our Freshness</h2>
             <div className="team-members">
                 {teamMembers.map(member =>(
                     <div key={member.name} className="team-member-card">
@@ -87,6 +79,7 @@ const AboutUs = () => {
                 ))}
             </div>
         </section>
+        <Footer/>
     </div>
     
   )

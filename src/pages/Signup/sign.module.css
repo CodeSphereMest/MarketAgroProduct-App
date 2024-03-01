@@ -11,7 +11,7 @@
 }
 
 
-body {
+.container {
     background-image: url('../../assets/images/bgimage.avif');  opacity: 1;
     
     background-size: cover; /* Ensure the image covers the entire background */
