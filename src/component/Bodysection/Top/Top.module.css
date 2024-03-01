@@ -1,0 +1,28 @@
+.title {
+    background-color: rgba(144, 209, 45, 0.61);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 10px 10px;
+}
+
+
+.topsection {
+    height: 10vh;
+    padding: 10px;
+
+}
+
+.sproduct {
+    margin: 40px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    
+}
+
+.upload {
+    margin: 40px;
+    padding: 20px;
+    border-radius: 10pc;
+}

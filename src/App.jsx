@@ -1,28 +1,23 @@
 
-import React from 'react';
-import AboutUs from './pages/AboutUs';
-// import Store from './pages/Store';
+import React from 'react'
+import Sellerpage from './pages/Sellerpage/Sellerpage';
+import LandingPage from "./Pages/landing";
 
 
-
-
-import React from 'react';
-import LandingPage from './pages/landing';
-import ContactUs from './Pages/ContactUspage/ContactUS';
 
 
 
 function App() {
   return (
-    <>
-    <AboutUs />
-   
-      <LandingPage />
-      <ContactUs />
-   </>
-  );
 
 
+    <React.Fragment>
+      <Sellerpage />
+
+    </React.Fragment>
+  )
 }
 
 export default App;
+
+
