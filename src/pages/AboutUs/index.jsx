@@ -4,32 +4,32 @@ import Footer from "../../components/footer/Footer";
 
 
 const AboutUs = () => {
-    const teamMembers = [
-        {
-            name: "Kenneth Boateng-Antwi",
-            image: "../src/assets/Ken-image.jpg",
-            background: "Founder & CEO",
-            bio: "John is a passionate entrepreneur who has been in the food industry for over 20 years."
-        },
-        {
-            name: "Cilla Azil",
-            image: "https://via.placeholder.com/150",
-            background: "Co-Founder & CTO",
-            bio: "Jane is a tech-savvy professional with a background in computer science and engineering."
-        },
-        {
-            name: "Sandra Dakey",
-            image: "https://via.placeholder.com/150",
-            background: "Head of Operations",
-            bio: "James is a seasoned operations manager with a passion for sustainable practices."
-        },
-        {
-            name: "Comfort Arthur",
-            image: "../src/assets/Comfort-image.jpg",
-            background: "Head of Marketing",
-            bio: "Jill is a marketing expert with a background in digital marketing and brand management."
-        }
-    ]
+    // const teamMembers = [
+    //     {
+    //         name: "Kenneth Boateng-Antwi",
+    //         image: "../src/assets/Ken-image.jpg",
+    //         background: "Founder & CEO",
+    //         bio: "John is a passionate entrepreneur who has been in the food industry for over 20 years."
+    //     },
+    //     {
+    //         name: "Cilla Azil",
+    //         image: "https://via.placeholder.com/150",
+    //         background: "Co-Founder & CTO",
+    //         bio: "Jane is a tech-savvy professional with a background in computer science and engineering."
+    //     },
+    //     {
+    //         name: "Sandra Dakey",
+    //         image: "https://via.placeholder.com/150",
+    //         background: "Head of Operations",
+    //         bio: "James is a seasoned operations manager with a passion for sustainable practices."
+    //     },
+    //     {
+    //         name: "Comfort Arthur",
+    //         image: "../src/assets/Comfort-image.jpg",
+    //         background: "Head of Marketing",
+    //         bio: "Jill is a marketing expert with a background in digital marketing and brand management."
+    //     }
+    // ]
 
     return (
        
@@ -57,13 +57,13 @@ const AboutUs = () => {
         </section>
         <section className="values">
             <h2 className="text-center">Our Values</h2>
-            <ul>
-                <li className="text-center"><strong>Sustainability</strong>: "We prioritize the planet in every decision, from packaging to partnerships."</li>
-                <li className="text-center"><strong>Quality</strong>: "Every product is hand-selceted for its freshness and nutritional value."</li>
-                <li className="text-center"><strong>Community</strong>: "Building strong, supportive relationships with both our farmers and customers."</li>
+            <ul className="text-center">
+                <li><strong>Sustainability</strong>: "We prioritize the planet in every decision, from packaging to partnerships."</li>
+                <li><strong>Quality</strong>: "Every product is hand-selceted for its freshness and nutritional value."</li>
+                <li><strong>Community</strong>: "Building strong, supportive relationships with both our farmers and customers."</li>
             </ul>
         </section>
-        <section className="our-team">
+        {/* <section className="our-team">
             <h2 className="text-center">Meet the Faces Behind Our Freshness</h2>
             <div className="team-members">
                 {teamMembers.map(member =>(
@@ -78,7 +78,7 @@ const AboutUs = () => {
                     </div>
                 ))}
             </div>
-        </section>
+        </section> */}
         <Footer/>
     </div>
     
